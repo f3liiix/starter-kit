@@ -1,3 +1,30 @@
 body {
-  color: red;
+  font: 0.9375rem/1.5 var(--font-family-sans-serif);
+  background: #f8f8f8;
+}
+
+.form-control {
+  font-size: 0.9375rem;
+  &::placeholder {
+    color: #aaa;
+  }
+}
+
+.navbar {
+  padding: 1rem;
+  .form-control {
+    width: 15rem;
+    background: #f8f8f8;
+  }
+}
+
+.navbar-brand {
+  margin-right: 3rem;
+}
+
+.navbar-nav {
+  .nav-link {
+    font-weight: 600;
+    padding: 0 1rem!important;
+  }
 }
