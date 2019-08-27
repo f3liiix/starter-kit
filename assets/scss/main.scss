@@ -1,6 +1,5 @@
 body {
   font: 0.9375rem/1.5 var(--font-family-sans-serif);
-  background: #f8f8f8;
 }
 
 .form-control {
@@ -27,4 +26,31 @@ body {
     font-weight: 600;
     padding: 0 1rem!important;
   }
+}
+
+.search-form {
+  position: relative;
+  .search-btn {
+    position: absolute;
+    right: 5px;
+    background: none;
+    border: 0;
+    display: flex;
+    align-items: center;
+    .icon {
+      color: #aaa;
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+.recommend {
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #222222 0%,#7d7e7d 50%,#111111 100%);;
+}
+
+.hot-search {
+  background: #f8f8f8;
+  border: 0;
 }

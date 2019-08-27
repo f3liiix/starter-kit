@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>要看网 - 要看影视大全 kan11.com</title>
+    <title>要看影视 - 全网VIP视频免费观看 kan11.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <link rel="canonical" href="http://www.site.com/">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/flickity.min.css" rel="stylesheet">
     <link href="assets/css/main.min.css" rel="stylesheet">
     <script src="assets/js/vendors/feather.min.js"></script>
 </head>
@@ -35,29 +36,41 @@
                 <a class="nav-link" href="#">综艺</a>
             </li>
         </ul>
-        <form class="form-inline mr-4">
-            <input class="form-control rounded-pill" type="search" placeholder="请输入影片关键词..." aria-label="Search">
+        <form class="search-form form-inline mr-4">
+            <input class="search-input form-control rounded-pill" type="search" placeholder="请输入影片关键词..." aria-label="搜索">
+            <button type="submit" class="search-btn"><i data-feather="search"></i></button>
         </form>
         <div class="navbar-text">
-            <a href=""><i data-feather="clock"></i></a>
-            <a class="ml-3" href=""><i data-feather="user"></i></a>
+            <a href="" title="播放记录"><i data-feather="clock"></i></a>
+            <a class="ml-3" href="" title="立即登录"><i data-feather="user"></i></a>
         </div>
     </div>
 </nav>
 
+<div class="recommend">
+    <div class="container">
+
+    </div>
+</div>
+
 <div class="container">
-    段落是文章中最基本的单位。内容上它具有一个相对完整的意思；在文章中，段具有换行的标。段是由句子或句群组成的，在文章中用于体现作者的思路发展或全篇文章的层次。有的段落只有一个句子，称为独句段，独句段一般是文章的开头段、结尾段、过渡段强调段等特殊的段落。多数段落包括不止一个句子或句群，叫多句段。中文段落开头前一般空两个格。
+    <div class="hot-search card">
+        <div class="card-body">
+            <span class="">热门搜索：</span><a href="">小欢喜</a><a href="">中餐厅3</a><a href="">烈火军校</a><a href="">全职高手</a><a href="">九州缥缈录</a><a href="">山月不知心底事</a><a href="">亲爱的热爱的</a>
+        </div>
+    </div>
 </div>
 
 <footer class="footer">
 
 </footer>
 
-<script src="assets/js/vendors/jquery-3.4.1.slim.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendors/jquery-3.4.1.slim.min.js"><\/script>')</script>
+<script src="assets/js/vendors/jquery.slim.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendors/jquery.slim.min.js"><\/script>')</script>
 <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+<script src="assets/js/vendors/flickity.min.js"></script>
 <script>
-    feather.replace({ class: 'icon' })
+    feather.replace({ class: 'icon' });
 </script>
 </body>
 </html>
